@@ -1,0 +1,61 @@
+.myslide{
+    /* position: relative; */
+    /* left: 0; */
+    /* left: auto; */
+    /* right: auto; */
+    width: 100%;
+    height: 100%;
+}
+.myslide img{
+    width: 710px;
+    height: auto;
+    padding: 0;
+}
+
+.mynone{
+    display: none;
+}
+.slider-a{
+    position: relative;
+    top: -180px;
+    left: 270px;
+    padding: 10px 25px;
+    color: #fff;
+    font-weight: 600;
+    background-color: rgb(197, 8, 8);
+    animation-name: move3;
+    animation-duration: 2s;
+}
+.slider-p{
+    position: relative;
+    top: -240px;
+    font-size: 20px;
+    left: 110px;
+    font-weight: 600;
+    width: 600px;
+    color: #232f3e;
+    animation-name: move2;
+    animation-duration: 2s;
+}
+.slider-h2{
+    position: relative;
+    top: -270px;
+    font-size: 28px;
+    left: 230px;
+    font-weight: 600;
+    color: #232f3e;
+    animation-name: move;
+    animation-duration: 2s;
+}
+@keyframes move{
+    0% {top: -350px;;}
+    100%{top: -270px;}
+}
+@keyframes move2{
+    0% {top: -330px;;}
+    100%{top: -240px;}
+}
+@keyframes move3{
+    0% {top: -310px;;}
+    100%{top: -180px;}
+}

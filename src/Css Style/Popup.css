@@ -1,0 +1,78 @@
+.popup-cont {
+  max-width: 1000px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 500px;
+  margin: 0 auto;
+}
+.pop-df-jc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid;
+  padding: 5px;
+}
+.pop-img {
+  width: auto;
+  height: 80px;
+  padding: 5px;
+}
+.df-pop {
+  display: flex;
+  align-items: center;
+  width: 150px;
+}
+.pop-btn-inc,
+.pop-btn-dec {
+  height: 25px;
+  font-size: 18px !important;
+  font-weight: 600;
+  padding: 0px 20px !important;
+  color: #fff;
+  background-color: #232f3e;
+  border: none;
+  cursor: pointer;
+}
+.pop-btn-dec:hover,
+.pop-btn-inc:hover {
+  background-color: #ff3c20;
+}
+.pop-btn-rem {
+  cursor: pointer;
+  color: #232f3e;
+}
+.pop-btn-rem:hover {
+  color: #ff3c20;
+}
+.fs {
+  font-size: 20px;
+}
+.wd {
+  width: 150px;
+}
+.total {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: right;
+  color: green;
+}
+
+@media only screen and (max-width: 999px) {
+  .container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .wd {
+    width: 100px;
+  }
+  .fs {
+    font-size: 15px;
+  }
+  .pop-btn-inc,
+  .pop-btn-dec {
+    height: 25px;
+    font-size: 15px !important;
+    padding: 0px 15px !important;
+  }
+}
